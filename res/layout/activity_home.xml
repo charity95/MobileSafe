@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+       android:text="功能列表" 
+       style="@style/TitleStyle"/>
+    
+    <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:singleLine="true"
+        android:text="手机安全卫士，专业的手机安全管家，打造全面的手机安全，你值得拥有！"
+        android:textSize="18sp"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:focusable="true"
+        android:focusableInTouchMode="true"/>
+    
+    <GridView 
+        android:id="@+id/gv_home"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:numColumns="3"
+        android:layout_marginTop="15dp"
+        android:verticalSpacing="5dp"
+        ></GridView>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MobileSafe</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sample_device_admin">手机安全卫士</string>
+    <string name="sample_device_admin_description">远程锁屏，远程清除数据</string>
+
+</resources>
